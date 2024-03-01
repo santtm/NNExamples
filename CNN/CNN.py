@@ -120,6 +120,7 @@ def main():
         print()
         print()
 
+
 FILTER = np.array([
     [0, 0, 1],
     [0, 1, 0],
