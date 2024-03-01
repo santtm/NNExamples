@@ -56,7 +56,7 @@ def main() -> None:
         prediction = vectorized(INPUTS)
 
         if count % 100 == 0:
-            print(f'Prediction: {prediction}\nSSR: {ssr(prediction)}\nw3:{w3} w4:{w4}\nb3:{b3}\n')
+            print(f'Prediction: {prediction}\nSSR: {ssr(prediction)}\nw3: {w3} w4: {w4}\nb3: {b3}\n')
         
         # backpropagation
         b3 = gradient_descent(b3, prediction, ssr_derivative_b3)
