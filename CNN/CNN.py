@@ -101,7 +101,7 @@ def print_input(input: np.array) -> None:
             else:    
                 print(u"\u25A0", end=' ')
         print('|')
-    print(f' {"\u203e" * 13} ')
+    print(f' {"\u203e" * 13} ', end='\n\n')
 
 
 def main():
@@ -109,16 +109,10 @@ def main():
         var_name = [name for name, value in locals().items() if value is input][0]
         print(f'Input: {var_name}')
         print_input(input)
-        print()
-        print(classification(input, pooling='max', argmax_or_softmax='argmax'))
-        print()
-        print(classification(input, pooling='max', argmax_or_softmax='softmax'))
-        print()
-        print(classification(input, pooling='mean', argmax_or_softmax='argmax'))
-        print()
-        print(classification(input, pooling='mean', argmax_or_softmax='softmax'))
-        print()
-        print()
+        print(classification(input, pooling='max', argmax_or_softmax='argmax'), end='\n\n')
+        print(classification(input, pooling='max', argmax_or_softmax='softmax'), end='\n\n')
+        print(classification(input, pooling='mean', argmax_or_softmax='argmax'), end='\n\n')
+        print(classification(input, pooling='mean', argmax_or_softmax='softmax'), end='\n\n\n')
 
 
 FILTER = np.array([
