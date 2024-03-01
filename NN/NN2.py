@@ -32,7 +32,7 @@ def main() -> None:
     global b3
     for _ in range(MAX_OPERATIONS):
         prediction = np.vectorize(predict)(INPUTS)
-        print(f'Prediction: {prediction}\nSSR: {ssr(prediction)}\nb3:{b3}\n')
+        print(f'Prediction: {prediction}\nSSR: {ssr(prediction)}\nb3: {b3}\n')
         
         # backpropagation
         b3 = gradient_descent(prediction)
