@@ -1,0 +1,1 @@
+[Neural Networks Part 8](https://www.youtube.com/watch?v=HGwBXDKFk9I&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=14)
