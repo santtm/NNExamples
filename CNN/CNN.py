@@ -2,7 +2,7 @@ import numpy as np
 from inputs import *
 
 
-def apply_filter(input: np.array, filter: np.array, bias: int) -> np.array:
+def apply_filter(input: np.array, filter: np.array, bias: float) -> np.array:
     n_rows = len(input) - 2
     n_cols = len(input[0]) - 2
     
