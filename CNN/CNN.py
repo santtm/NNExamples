@@ -86,7 +86,9 @@ def classification(input : np.array, pooling: str, argmax_or_softmax: str) -> st
     if argmax_or_softmax == 'softmax':
         output = softmax(output)
 
-    stroutput = f'Prediction: {prediction}\n{pooling.capitalize()}, {argmax_or_softmax.capitalize()}:\nX: {output[0]:.3f}, O: {output[1]:.3f}'
+    stroutput = (f'Prediction: {prediction}\n'
+                 f'{pooling.capitalize()}, {argmax_or_softmax.capitalize()}:\n'
+                 f'X: {output[0]:.3f}, O: {output[1]:.3f}')
 
     return stroutput
 
