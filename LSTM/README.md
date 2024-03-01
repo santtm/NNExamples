@@ -15,16 +15,6 @@ Long term memory: -0.324621451889213, Short term memory: -0.16621818785088271
 Input: 1
 Long term memory: 0.01526957315838906, Short term memory: 0.006393158240805617
 
-Company B
-
-Input: 1
-
-Input: 0.25
-Long term memory: -0.324621451889213, Short term memory: -0.16621818785088271   
-
-Input: 1
-Long term memory: 0.01526957315838906, Short term memory: 0.006393158240805617  
-
 
 Company B
 
