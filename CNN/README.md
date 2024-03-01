@@ -1,5 +1,6 @@
 [Neural Networks Part 8](https://www.youtube.com/watch?v=HGwBXDKFk9I&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=14)
 
+<pre>
 Input: X
  _____________ 
 | ■         ■ |
@@ -268,3 +269,4 @@ X: 1.000, O: 0.000
 Prediction: X
 Mean, Softmax:
 X: 0.731, O: 0.269
+</pre>
